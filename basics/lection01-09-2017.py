@@ -1,9 +1,4 @@
 
-
-
-
-
-
 class A(object):
     at1 = 2
     def m1(self):
@@ -14,13 +9,14 @@ class A(object):
         self.z = z
     def __del__(self):
         pass
+    #ToString()
     def __repr__(self):
         pass
 
 class B(A):
     def  __init__(self):
         super(self, 2)
-        A.__init(z=1)
+        A.__init__(z=1)
         self.s = 1
         v = 2
 
