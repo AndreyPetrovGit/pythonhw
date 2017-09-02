@@ -4,3 +4,4 @@
     * In Department class create method add_team_members(manager, array) which tries to add array of Employees to manager team. Handle the exceptions, raised in manager's add_to_team method.
 
 2. Cover your LinkedList class methods with unit tests. (Possible to use `setUp()` while testing)
+3
