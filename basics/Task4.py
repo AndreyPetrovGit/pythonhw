@@ -6,4 +6,3 @@ def isPol(str):
             break
     return ans
 print(isPol("1235321"))
-

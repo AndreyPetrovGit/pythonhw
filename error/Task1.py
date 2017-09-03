@@ -55,7 +55,7 @@ class Manager(Employe):
         return self.team
     def get_salary(self):
         total_salary = super.getsalary()
-        if len(filter(lambda e: type(e) is Developer ))>len(self.team)/2:
+        if len(filter(lambda e: type(e) is Developer, self.team ))>len(self.team)/2:
             total_salary *= 1.1
         if len(self.team) > 5 & len(self.team) <= 10:
             total_salary += 200
